@@ -8,10 +8,6 @@
            fetch="https://github.com/aryankaran"
            revision="havoc" />
 
-  <remote  name="me-los"
-           fetch="https://github.com/aryankaran"
-           revision="lineage-18.1" />
-
   <remote  name="mi-msm8937_vendor"
            fetch="https://github.com/mi-msm8937"
            revision="lineage-18.1" />
@@ -44,7 +40,7 @@
   <project path="vendor/xiaomi/mi8937"          name="proprietary_vendor_xiaomi_mi8937"          groups="device" remote="mi-msm8937_vendor"/>
   <project path="vendor/xiaomi/prada"           name="proprietary_vendor_xiaomi_prada"           groups="device" remote="mi-msm8937_vendor"/>
   <project path="vendor/xiaomi/riva"            name="proprietary_vendor_xiaomi_riva"            groups="device" remote="mi-msm8937_vendor"/>
-  <project path="vendor/xiaomi/rolex"           name="proprietary_vendor_xiaomi_rolex"           groups="device" remote="me-los"           />
+  <project path="vendor/xiaomi/rolex"           name="proprietary_vendor_xiaomi_rolex"           groups="device" remote="me" revision="lineage-18.1"/>
   <project path="vendor/xiaomi/rova"            name="proprietary_vendor_xiaomi_rova"            groups="device" remote="mi-msm8937_vendor"/>
   <project path="vendor/xiaomi/santoni"         name="proprietary_vendor_xiaomi_santoni"         groups="device" remote="mi-msm8937_vendor"/>
   <project path="vendor/xiaomi/tiare"           name="proprietary_vendor_xiaomi_tiare"           groups="device" remote="mi-msm8937_vendor"/>
