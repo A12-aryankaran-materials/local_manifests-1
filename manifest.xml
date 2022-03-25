@@ -46,4 +46,9 @@
   <project path="vendor/xiaomi/tiare"           name="proprietary_vendor_xiaomi_tiare"           groups="device" remote="mi-msm8937_vendor"/>
   <project path="vendor/xiaomi/ulova"           name="proprietary_vendor_xiaomi_ulova"           groups="device" remote="mi-msm8937_vendor"/>
   <project path="vendor/xiaomi/ulysse"          name="proprietary_vendor_xiaomi_ulysse"          groups="device" remote="mi-msm8937_vendor"/>
+
+<!-- Remove Stuffs -->
+  <remove-project name="android_vendor_havoc" />
+  <project path="vendor/havoc" name="vendor" remote="me" revision="eleven" />
+
 </manifest>
